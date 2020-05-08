@@ -4,16 +4,16 @@ export default class MovieElement extends Component {
 
   render () {
     return (
-      <div className="w-25 p-2">
-        <div className="card">
-          <img alt="rushHour" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/rush-hour-3-1549976707.jpg?crop=0.637xw:1.00xh;0.0937xw,0&resize=480:*" className="card-img-top"/>
-          <div className="card-body">
-            <h5 className="card-title">RUSH HOUR</h5>
-            <p className="card-text">L'inspecteur Lee est un membre irréprochable de la Hong Kong Police Force. Il est par ailleurs un expert en arts martiaux.</p>
+      <div className="w-50 p-2">
+        <div className="border d-flex">
+          <img width="150" height="200" alt="film" src="https://www.gstatic.com/tv/thumb/v22vodart/24674/p24674_v_v8_ag.jpg"/>
+          <div className="flex-fill d-flex flex-column p-3">
+            <h5>Titre</h5>
+            <hr className="w-100"></hr>
+            <p>L'inspecteur Lee est un membre irréprochable de la Hong Kong Police Force. Il est par ailleurs un expert en arts martiaux.</p>
           </div>
         </div>
       </div>
     )
   }
-
 }
